@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "fluid": "liquified:cheese",
+      "nbt": {},
+      "amount": 20250
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:scrambled_eggs"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

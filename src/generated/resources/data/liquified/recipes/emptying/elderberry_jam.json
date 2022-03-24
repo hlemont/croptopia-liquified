@@ -1,0 +1,14 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "croptopia:elderberry_jam"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:elderberry_jam",
+      "amount": 27000
+    }
+  ]
+}

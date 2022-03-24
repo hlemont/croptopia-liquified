@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:flour"
+    },
+    {
+      "tag": "c:flour"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "fluid": "milk:still_milk",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

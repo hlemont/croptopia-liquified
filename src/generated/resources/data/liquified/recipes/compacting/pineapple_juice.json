@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:fruits/pineapples"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:pineapple_juice",
+      "amount": 27000
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:grain/rice"
+    },
+    {
+      "tag": "c:salts"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:steamed_rice"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

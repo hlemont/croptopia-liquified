@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:apple_juice",
+      "amount": 27000
+    }
+  ]
+}

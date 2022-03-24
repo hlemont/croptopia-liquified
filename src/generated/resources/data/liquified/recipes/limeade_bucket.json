@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "croptopia:limeade"
+    },
+    {
+      "item": "croptopia:limeade"
+    },
+    {
+      "item": "croptopia:limeade"
+    }
+  ],
+  "result": {
+    "item": "liquified:limeade_bucket"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "croptopia"
+      ]
+    }
+  ]
+}

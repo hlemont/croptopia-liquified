@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "croptopia:strawberry_smoothie"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "fluid": "liquified:strawberry_smoothie",
+      "amount": 27000
+    }
+  ]
+}

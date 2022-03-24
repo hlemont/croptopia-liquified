@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "liquified:butter_block"
+    }
+  ],
+  "result": {
+    "item": "croptopia:butter",
+    "count": 4
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "croptopia"
+      ]
+    }
+  ]
+}

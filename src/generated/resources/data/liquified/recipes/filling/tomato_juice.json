@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "fluid": "liquified:tomato_juice",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:tomato_juice"
+    }
+  ]
+}

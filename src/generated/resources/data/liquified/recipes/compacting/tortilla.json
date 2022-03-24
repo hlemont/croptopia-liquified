@@ -1,0 +1,19 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:flour"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:tortilla"
+    }
+  ],
+  "heatRequirement": "heated"
+}

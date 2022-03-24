@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:tortillas"
+    },
+    {
+      "tag": "c:vegetables/lettuce"
+    },
+    {
+      "tag": "croptopia:meat_replacements"
+    },
+    {
+      "fluid": "liquified:salsa",
+      "nbt": {},
+      "amount": 20250
+    },
+    {
+      "fluid": "liquified:cheese",
+      "nbt": {},
+      "amount": 20250
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:taco"
+    }
+  ],
+  "processingTime": 800
+}

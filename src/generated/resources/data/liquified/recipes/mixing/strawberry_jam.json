@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:fruits/strawberries"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:strawberry_jam",
+      "amount": 27000
+    }
+  ],
+  "heatRequirement": "heated"
+}

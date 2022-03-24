@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "croptopia:melons"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:melon_juice",
+      "amount": 27000
+    }
+  ]
+}

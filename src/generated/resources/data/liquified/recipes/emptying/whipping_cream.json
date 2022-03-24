@@ -1,0 +1,14 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "croptopia:whipping_cream"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:whipping_cream",
+      "amount": 27000
+    }
+  ]
+}

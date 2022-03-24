@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "liquified:chocolate_block"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:chocolate",
+      "amount": 81000
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:fruits/limes"
+    },
+    {
+      "tag": "c:salts"
+    },
+    {
+      "fluid": "liquified:soy_milk",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:crema"
+    }
+  ]
+}

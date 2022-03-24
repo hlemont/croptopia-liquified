@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:fruits"
+    },
+    {
+      "tag": "c:fruits"
+    },
+    {
+      "tag": "c:fruits"
+    },
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "fluid": "milk:still_milk",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:fruit_smoothie",
+      "amount": 81000
+    }
+  ]
+}

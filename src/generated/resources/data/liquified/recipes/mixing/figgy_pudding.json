@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:fruits/dates"
+    },
+    {
+      "tag": "c:fruits/figs"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 27000
+    },
+    {
+      "fluid": "liquified:whipping_cream",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:figgy_pudding"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

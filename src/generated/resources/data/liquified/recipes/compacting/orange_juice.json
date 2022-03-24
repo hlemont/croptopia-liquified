@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:fruits/oranges"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:orange_juice",
+      "amount": 27000
+    }
+  ]
+}

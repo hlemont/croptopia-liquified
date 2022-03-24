@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:vegetables/eggplant"
+    },
+    {
+      "tag": "c:vegetables/garlic"
+    },
+    {
+      "tag": "c:salts"
+    },
+    {
+      "item": "croptopia:pepper"
+    },
+    {
+      "tag": "c:crops/paprika"
+    },
+    {
+      "fluid": "liquified:olive_oil",
+      "nbt": {},
+      "amount": 13500
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:grilled_eggplant"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

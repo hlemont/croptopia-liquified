@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "fluid": "liquified:cheese",
+      "nbt": {},
+      "amount": 20250
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:grilled_cheese"
+    }
+  ]
+}

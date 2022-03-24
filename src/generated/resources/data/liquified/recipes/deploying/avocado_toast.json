@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "c:toasts"
+    },
+    {
+      "tag": "c:fruits/avocados"
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:toast"
+    }
+  ]
+}

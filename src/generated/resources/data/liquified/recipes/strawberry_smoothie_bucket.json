@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "croptopia:strawberry_smoothie"
+    },
+    {
+      "item": "croptopia:strawberry_smoothie"
+    },
+    {
+      "item": "croptopia:strawberry_smoothie"
+    }
+  ],
+  "result": {
+    "item": "liquified:strawberry_smoothie_bucket"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "croptopia"
+      ]
+    }
+  ]
+}

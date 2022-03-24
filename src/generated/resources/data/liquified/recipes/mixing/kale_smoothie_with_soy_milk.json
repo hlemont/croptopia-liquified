@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:vegetables/kale"
+    },
+    {
+      "tag": "c:fruits/mangos"
+    },
+    {
+      "item": "croptopia:yoghurt"
+    },
+    {
+      "tag": "c:vegetables/tomatoes"
+    },
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "fluid": "liquified:soy_milk",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:kale_smoothie",
+      "amount": 54000
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "croptopia:pumpkin_spice_latte"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "fluid": "liquified:pumpkin_spice_latte",
+      "amount": 27000
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:fruits/lemons"
+    },
+    {
+      "tag": "c:crops/chile_peppers"
+    },
+    {
+      "tag": "c:vegetables/tomatoes"
+    },
+    {
+      "tag": "croptopia:chicken_replacements"
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:lemon_chicken"
+    }
+  ]
+}

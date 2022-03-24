@@ -1,0 +1,14 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "croptopia:peanut_butter"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:peanut_butter",
+      "amount": 27000
+    }
+  ]
+}

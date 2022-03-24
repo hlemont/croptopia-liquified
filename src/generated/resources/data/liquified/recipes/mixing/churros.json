@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:flour"
+    },
+    {
+      "item": "croptopia:cinnamon"
+    },
+    {
+      "fluid": "milk:still_milk",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:churros",
+      "count": 3
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

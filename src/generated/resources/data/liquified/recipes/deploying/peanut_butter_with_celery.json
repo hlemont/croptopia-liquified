@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "c:vegetables/celery"
+    },
+    {
+      "item": "liquified:butter_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:peanut_butter_with_celery"
+    }
+  ]
+}

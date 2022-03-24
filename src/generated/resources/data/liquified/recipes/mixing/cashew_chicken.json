@@ -1,0 +1,29 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:fruits/cashews"
+    },
+    {
+      "item": "minecraft:cooked_chicken"
+    },
+    {
+      "tag": "c:vegetables/cabbage"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "fluid": "liquified:soy_sauce",
+      "nbt": {},
+      "amount": 13500
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:cashew_chicken"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

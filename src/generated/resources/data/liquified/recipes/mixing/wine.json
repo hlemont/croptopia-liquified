@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:fruits/grapes"
+    },
+    {
+      "tag": "c:fruits/grapes"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:wine",
+      "amount": 27000
+    }
+  ]
+}

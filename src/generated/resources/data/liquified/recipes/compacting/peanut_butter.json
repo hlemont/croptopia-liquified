@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:crops/peanuts"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:peanut_butter",
+      "amount": 27000
+    }
+  ]
+}

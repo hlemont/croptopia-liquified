@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:fruits/apricots"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:apricot_jam",
+      "amount": 27000
+    }
+  ],
+  "heatRequirement": "heated"
+}

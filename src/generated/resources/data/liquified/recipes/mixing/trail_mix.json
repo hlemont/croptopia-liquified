@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:nuts"
+    },
+    {
+      "tag": "c:nuts"
+    },
+    {
+      "tag": "c:nuts"
+    },
+    {
+      "tag": "c:raisins"
+    },
+    {
+      "tag": "c:salts"
+    },
+    {
+      "fluid": "liquified:chocolate",
+      "nbt": {},
+      "amount": 20250
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:trail_mix",
+      "count": 4
+    }
+  ]
+}

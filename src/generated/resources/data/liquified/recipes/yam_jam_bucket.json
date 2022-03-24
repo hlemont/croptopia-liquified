@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "croptopia:yam_jam"
+    },
+    {
+      "item": "croptopia:yam_jam"
+    },
+    {
+      "item": "croptopia:yam_jam"
+    }
+  ],
+  "result": {
+    "item": "liquified:yam_jam_bucket"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "croptopia"
+      ]
+    }
+  ]
+}

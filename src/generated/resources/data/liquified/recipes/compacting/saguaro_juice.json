@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:saguaros"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:saguaro_juice",
+      "amount": 27000
+    }
+  ]
+}

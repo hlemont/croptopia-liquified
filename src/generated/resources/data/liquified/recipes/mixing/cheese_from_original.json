@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "croptopia:cheese"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:cheese",
+      "amount": 20250
+    }
+  ],
+  "heatRequirement": "heated"
+}

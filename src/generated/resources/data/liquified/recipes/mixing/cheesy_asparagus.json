@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:vegetables/asparagus"
+    },
+    {
+      "tag": "c:cheeses"
+    },
+    {
+      "item": "croptopia:pepper"
+    },
+    {
+      "fluid": "liquified:olive_oil",
+      "nbt": {},
+      "amount": 13500
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:cheesy_asparagus"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

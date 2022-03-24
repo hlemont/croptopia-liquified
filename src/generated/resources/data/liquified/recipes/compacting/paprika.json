@@ -1,0 +1,13 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:crops/chile_peppers"
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:paprika"
+    }
+  ]
+}

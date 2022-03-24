@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:fruits/peaches"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:peach_jam",
+      "amount": 27000
+    }
+  ],
+  "heatRequirement": "heated"
+}

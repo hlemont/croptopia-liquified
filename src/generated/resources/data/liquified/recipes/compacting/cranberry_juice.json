@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:fruits/cranberries"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:cranberry_juice",
+      "amount": 27000
+    }
+  ]
+}

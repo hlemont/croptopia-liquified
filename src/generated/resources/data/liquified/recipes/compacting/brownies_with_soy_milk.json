@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:flour"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "fluid": "liquified:soy_milk",
+      "nbt": {},
+      "amount": 27000
+    },
+    {
+      "fluid": "liquified:chocolate",
+      "nbt": {},
+      "amount": 20250
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:brownies"
+    }
+  ],
+  "heatRequirement": "heated"
+}

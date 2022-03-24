@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "c:fruits/strawberries"
+    },
+    {
+      "tag": "c:fruits/strawberries"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "fluid": "liquified:whipping_cream",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:eton_mess"
+    }
+  ]
+}

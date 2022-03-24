@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:nuts/pecans"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "fluid": "liquified:soy_milk",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:pecan_ice_cream"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:butter"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "c:crops/vanilla"
+    },
+    {
+      "tag": "c:fruits/strawberries"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "fluid": "liquified:soy_milk",
+      "nbt": {},
+      "amount": 27000
+    },
+    {
+      "fluid": "liquified:wine",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:trifle"
+    }
+  ]
+}

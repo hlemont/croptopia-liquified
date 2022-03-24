@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:vegetables/tomatoes"
+    },
+    {
+      "tag": "c:crops/chile_peppers"
+    },
+    {
+      "tag": "c:salts"
+    },
+    {
+      "tag": "c:fruits/limes"
+    },
+    {
+      "tag": "c:vegetables/tomatillos"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:salsa",
+      "amount": 81000
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "liquified:caramel_block"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:caramel",
+      "amount": 81000
+    }
+  ],
+  "heatRequirement": "heated"
+}

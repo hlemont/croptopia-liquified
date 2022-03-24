@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:doughs"
+    },
+    {
+      "tag": "c:vegetables/tomatoes"
+    },
+    {
+      "fluid": "liquified:cheese",
+      "nbt": {},
+      "amount": 40500
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:cheese_pizza"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

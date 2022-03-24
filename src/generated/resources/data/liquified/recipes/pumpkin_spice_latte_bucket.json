@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "croptopia:pumpkin_spice_latte"
+    },
+    {
+      "item": "croptopia:pumpkin_spice_latte"
+    },
+    {
+      "item": "croptopia:pumpkin_spice_latte"
+    }
+  ],
+  "result": {
+    "item": "liquified:pumpkin_spice_latte_bucket"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "croptopia"
+      ]
+    }
+  ]
+}

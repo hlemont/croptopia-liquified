@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "G G"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "liquified:disposable_bottle",
+    "count": 16
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "croptopia"
+      ]
+    }
+  ]
+}

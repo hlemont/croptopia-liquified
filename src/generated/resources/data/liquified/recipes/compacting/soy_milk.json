@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:vegetables/soybeans"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:soy_milk",
+      "amount": 27000
+    }
+  ]
+}

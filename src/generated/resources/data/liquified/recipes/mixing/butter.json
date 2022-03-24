@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:salts"
+    },
+    {
+      "item": "croptopia:food_press"
+    },
+    {
+      "fluid": "milk:still_milk",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:food_press"
+    },
+    {
+      "fluid": "liquified:butter",
+      "amount": 20250
+    }
+  ],
+  "heatRequirement": "heated"
+}

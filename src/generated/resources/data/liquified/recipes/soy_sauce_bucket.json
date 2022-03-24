@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "croptopia:soy_sauce"
+    },
+    {
+      "item": "croptopia:soy_sauce"
+    },
+    {
+      "item": "croptopia:soy_sauce"
+    }
+  ],
+  "result": {
+    "item": "liquified:soy_sauce_bucket"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "croptopia"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "croptopia:artichoke_dip"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:artichoke_dip",
+      "amount": 27000
+    }
+  ]
+}

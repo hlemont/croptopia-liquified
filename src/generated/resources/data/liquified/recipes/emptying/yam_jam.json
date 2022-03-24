@@ -1,0 +1,14 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "croptopia:yam_jam"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:yam_jam",
+      "amount": 27000
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "croptopia:whipping_cream"
+    },
+    {
+      "item": "croptopia:whipping_cream"
+    },
+    {
+      "item": "croptopia:whipping_cream"
+    }
+  ],
+  "result": {
+    "item": "liquified:whipping_cream_bucket"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "croptopia"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "liquified:item/bucket_melted_ingredient_outer",
+		"layer1": "liquified:item/bucket_melted_ingredient_inner"
+	}
+}

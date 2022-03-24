@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "tag": "c:toasts"
+    },
+    {
+      "item": "croptopia:toast_with_jam"
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:ajvar_toast"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:noodles"
+    },
+    {
+      "tag": "c:crops/chile_peppers"
+    },
+    {
+      "tag": "croptopia:chicken_replacements"
+    },
+    {
+      "fluid": "liquified:olive_oil",
+      "nbt": {},
+      "amount": 13500
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:chicken_and_noodles"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

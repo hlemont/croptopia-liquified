@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:vegetables/eggplant"
+    },
+    {
+      "tag": "c:vegetables/tomatoes"
+    },
+    {
+      "tag": "c:vegetables/squash"
+    },
+    {
+      "tag": "c:vegetables/zucchini"
+    },
+    {
+      "tag": "c:vegetables/onion"
+    },
+    {
+      "tag": "c:fruits/bellpeppers"
+    },
+    {
+      "tag": "c:crops/basil"
+    },
+    {
+      "fluid": "liquified:olive_oil",
+      "nbt": {},
+      "amount": 13500
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:ratatouille",
+      "count": 2
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

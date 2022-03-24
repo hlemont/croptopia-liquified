@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "croptopia:grape_jam"
+    },
+    {
+      "item": "croptopia:grape_jam"
+    },
+    {
+      "item": "croptopia:grape_jam"
+    }
+  ],
+  "result": {
+    "item": "liquified:grape_jam_bucket"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "croptopia"
+      ]
+    }
+  ]
+}

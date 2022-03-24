@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "croptopia:water_bottle"
+    }
+  ],
+  "results": [
+    {
+      "item": "liquified:disposable_bottle"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 27000
+    }
+  ]
+}

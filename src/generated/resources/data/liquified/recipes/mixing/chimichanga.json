@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "croptopia:burrito"
+    },
+    {
+      "tag": "c:flour"
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:chimichanga"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

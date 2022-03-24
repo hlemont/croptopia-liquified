@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:noodles"
+    },
+    {
+      "fluid": "liquified:cheese",
+      "nbt": {},
+      "amount": 20250
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:ravioli",
+      "count": 2
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

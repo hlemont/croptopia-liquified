@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:vegetables/squash"
+    },
+    {
+      "tag": "c:crops/chile_peppers"
+    },
+    {
+      "fluid": "liquified:olive_oil",
+      "nbt": {},
+      "amount": 13500
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:spaghetti_squash"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

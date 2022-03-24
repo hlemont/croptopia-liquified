@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:crops/blackbeans"
+    },
+    {
+      "tag": "c:crops/blackbeans"
+    },
+    {
+      "item": "croptopia:pepper"
+    },
+    {
+      "fluid": "liquified:cheese",
+      "nbt": {},
+      "amount": 20250
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:refried_beans",
+      "count": 2
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

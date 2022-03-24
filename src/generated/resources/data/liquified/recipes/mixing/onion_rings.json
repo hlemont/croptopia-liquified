@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:vegetables/onion"
+    },
+    {
+      "tag": "c:salts"
+    },
+    {
+      "tag": "c:flour"
+    },
+    {
+      "fluid": "liquified:olive_oil",
+      "nbt": {},
+      "amount": 13500
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:onion_rings"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "liquified:caramel_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:caramel",
+      "count": 4
+    }
+  ]
+}

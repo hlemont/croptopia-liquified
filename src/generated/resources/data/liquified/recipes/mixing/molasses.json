@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar_cane"
+    },
+    {
+      "item": "minecraft:sugar_cane"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 81000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:molasses",
+      "amount": 81000
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

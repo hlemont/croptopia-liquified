@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "croptopia:caramel"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:caramel",
+      "amount": 20250
+    }
+  ],
+  "heatRequirement": "heated"
+}

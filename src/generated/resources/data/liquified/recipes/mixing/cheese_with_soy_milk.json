@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:salts"
+    },
+    {
+      "fluid": "liquified:soy_milk",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:cheese",
+      "amount": 20250
+    }
+  ],
+  "heatRequirement": "heated"
+}

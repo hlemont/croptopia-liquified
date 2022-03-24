@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "croptopia:artichoke_dip"
+    },
+    {
+      "item": "croptopia:artichoke_dip"
+    },
+    {
+      "item": "croptopia:artichoke_dip"
+    }
+  ],
+  "result": {
+    "item": "liquified:artichoke_dip_bucket"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "croptopia"
+      ]
+    }
+  ]
+}

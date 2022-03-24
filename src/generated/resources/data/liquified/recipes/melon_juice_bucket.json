@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "croptopia:melon_juice"
+    },
+    {
+      "item": "croptopia:melon_juice"
+    },
+    {
+      "item": "croptopia:melon_juice"
+    }
+  ],
+  "result": {
+    "item": "liquified:melon_juice_bucket"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "croptopia"
+      ]
+    }
+  ]
+}

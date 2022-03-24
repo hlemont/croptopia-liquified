@@ -19,15 +19,21 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.anodemc.croptopia.liquified.CroptopiaLiquified"
+      "com.anodemc.croptopialiquified.Liquified"
+    ],
+    "fabric-datagen": [
+      "com.anodemc.croptopialiquified.LiquifiedDatagen"
+    ],
+    "client": [
+      "com.anodemc.croptopialiquified.LiquifiedClient"
     ]
   },
   "mixins": [
     "liquified.mixins.json"
   ],
-
+  "accessWidener" : "liquified.accesswidener",
   "depends": {
-    "fabricloader": ">=0.13.3",
+    "fabricloader": ">=0.12.12",
     "fabric": "*",
     "minecraft": "1.18.1",
     "java": ">=17"

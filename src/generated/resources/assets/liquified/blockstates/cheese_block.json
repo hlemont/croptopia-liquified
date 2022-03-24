@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "liquified:block/cheese_block"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "croptopia:kale_smoothie"
+    },
+    {
+      "item": "croptopia:kale_smoothie"
+    },
+    {
+      "item": "croptopia:kale_smoothie"
+    }
+  ],
+  "result": {
+    "item": "liquified:kale_smoothie_bucket"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "croptopia"
+      ]
+    }
+  ]
+}

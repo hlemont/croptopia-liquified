@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:vegetables/tomatoes"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:tomato_juice",
+      "amount": 27000
+    }
+  ]
+}

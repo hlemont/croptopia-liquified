@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "liquified:butter_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:butter",
+      "count": 4
+    }
+  ]
+}

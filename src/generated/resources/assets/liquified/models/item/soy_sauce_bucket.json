@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "liquified:item/soy_sauce_bucket"
+  }
+}

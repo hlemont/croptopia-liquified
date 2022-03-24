@@ -1,0 +1,30 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:fruits/lemons"
+    },
+    {
+      "tag": "c:fruits/coconuts"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "c:flour"
+    },
+    {
+      "fluid": "liquified:butter",
+      "nbt": {},
+      "amount": 20250
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:lemon_coconut_bar"
+    }
+  ]
+}

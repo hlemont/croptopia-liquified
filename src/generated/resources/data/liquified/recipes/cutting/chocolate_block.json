@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "liquified:chocolate_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:chocolate",
+      "count": 4
+    }
+  ]
+}

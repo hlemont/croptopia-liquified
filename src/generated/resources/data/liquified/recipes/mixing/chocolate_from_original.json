@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "croptopia:chocolate"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:chocolate",
+      "amount": 20250
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "croptopia:vanilla_ice_cream"
+    },
+    {
+      "fluid": "milk:still_milk",
+      "nbt": {},
+      "amount": 27000
+    },
+    {
+      "fluid": "liquified:chocolate",
+      "nbt": {},
+      "amount": 20250
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:chocolate_milkshake",
+      "amount": 54000
+    }
+  ]
+}

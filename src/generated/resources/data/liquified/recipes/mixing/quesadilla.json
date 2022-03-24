@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:tortillas"
+    },
+    {
+      "tag": "c:tortillas"
+    },
+    {
+      "tag": "c:fruits/avocados"
+    },
+    {
+      "tag": "croptopia:chicken_replacements"
+    },
+    {
+      "fluid": "liquified:cheese",
+      "nbt": {},
+      "amount": 20250
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:quesadilla",
+      "count": 2
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

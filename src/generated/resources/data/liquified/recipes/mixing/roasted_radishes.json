@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:vegetables/radishes"
+    },
+    {
+      "tag": "c:vegetables/garlic"
+    },
+    {
+      "tag": "c:salts"
+    },
+    {
+      "item": "croptopia:pepper"
+    },
+    {
+      "fluid": "liquified:olive_oil",
+      "nbt": {},
+      "amount": 13500
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:roasted_radishes",
+      "count": 2
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

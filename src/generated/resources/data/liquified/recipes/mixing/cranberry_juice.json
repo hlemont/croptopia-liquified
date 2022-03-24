@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:fruits/cranberries"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:cranberry_juice",
+      "amount": 27000
+    }
+  ],
+  "heatRequirement": "heated"
+}

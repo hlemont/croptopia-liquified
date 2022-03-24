@@ -1,0 +1,33 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:nuts"
+    },
+    {
+      "tag": "c:nuts"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:salts"
+    },
+    {
+      "fluid": "liquified:chocolate",
+      "nbt": {},
+      "amount": 20250
+    },
+    {
+      "fluid": "liquified:caramel",
+      "nbt": {},
+      "amount": 20250
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:protein_bar",
+      "count": 8
+    }
+  ]
+}

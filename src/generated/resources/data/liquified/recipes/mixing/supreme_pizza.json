@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:doughs"
+    },
+    {
+      "tag": "c:vegetables/tomatoes"
+    },
+    {
+      "tag": "c:fruits/bellpeppers"
+    },
+    {
+      "tag": "c:fruits/olives"
+    },
+    {
+      "tag": "croptopia:meat_replacements"
+    },
+    {
+      "fluid": "liquified:cheese",
+      "nbt": {},
+      "amount": 20250
+    }
+  ],
+  "results": []
+}

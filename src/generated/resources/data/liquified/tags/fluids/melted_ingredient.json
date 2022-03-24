@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "liquified:cheese",
+    "liquified:cheese_flowing",
+    "liquified:caramel",
+    "liquified:caramel_flowing",
+    "liquified:chocolate",
+    "liquified:chocolate_flowing",
+    "liquified:butter",
+    "liquified:butter_flowing"
+  ]
+}

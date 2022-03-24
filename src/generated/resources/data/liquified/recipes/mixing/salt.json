@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 81000
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:salt",
+      "count": 3
+    },
+    {
+      "item": "croptopia:salt_ore",
+      "chance": 0.02
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

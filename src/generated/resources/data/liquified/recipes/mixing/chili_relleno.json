@@ -1,0 +1,29 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "c:crops/chile_peppers"
+    },
+    {
+      "tag": "c:flour"
+    },
+    {
+      "tag": "c:salts"
+    },
+    {
+      "fluid": "liquified:olive_oil",
+      "nbt": {},
+      "amount": 13500
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:chili_relleno"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

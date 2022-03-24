@@ -1,0 +1,17 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:fruits/olives"
+    },
+    {
+      "tag": "c:fruits/olives"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:olive_oil",
+      "amount": 27000
+    }
+  ]
+}

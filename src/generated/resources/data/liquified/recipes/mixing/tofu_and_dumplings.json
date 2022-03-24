@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:doughs"
+    },
+    {
+      "tag": "c:crops/chile_peppers"
+    },
+    {
+      "tag": "c:tofu"
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:tofu_and_dumplings"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

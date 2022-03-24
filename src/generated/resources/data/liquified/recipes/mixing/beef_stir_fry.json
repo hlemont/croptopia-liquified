@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:vegetables/broccoli"
+    },
+    {
+      "tag": "c:vegetables/garlic"
+    },
+    {
+      "item": "minecraft:beef"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "fluid": "liquified:olive_oil",
+      "nbt": {},
+      "amount": 13500
+    },
+    {
+      "fluid": "liquified:soy_sauce",
+      "nbt": {},
+      "amount": 13500
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:beef_stir_fry"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

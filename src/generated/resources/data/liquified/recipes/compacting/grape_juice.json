@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:fruits/grapes"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:grape_juice",
+      "amount": 27000
+    }
+  ]
+}

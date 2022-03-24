@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:fruits/bananas"
+    },
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "fluid": "liquified:soy_milk",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:banana_smoothie",
+      "amount": 54000
+    }
+  ]
+}

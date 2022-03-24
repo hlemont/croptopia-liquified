@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:fruits/lemons"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:lemonade",
+      "amount": 27000
+    }
+  ]
+}

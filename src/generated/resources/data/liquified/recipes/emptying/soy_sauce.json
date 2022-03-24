@@ -1,0 +1,14 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "croptopia:soy_sauce"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:soy_sauce",
+      "amount": 27000
+    }
+  ]
+}

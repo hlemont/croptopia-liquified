@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:vegetables/sweetpotatoes"
+    },
+    {
+      "tag": "c:salts"
+    },
+    {
+      "fluid": "liquified:olive_oil",
+      "nbt": {},
+      "amount": 13500
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:sweet_potato_fries"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

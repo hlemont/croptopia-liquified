@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:vegetables/celery"
+    },
+    {
+      "fluid": "liquified:peanut_butter",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:peanut_butter_with_celery"
+    }
+  ]
+}

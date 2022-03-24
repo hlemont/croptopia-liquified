@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "croptopia:olive_oil"
+    },
+    {
+      "item": "croptopia:olive_oil"
+    },
+    {
+      "item": "croptopia:olive_oil"
+    }
+  ],
+  "result": {
+    "item": "liquified:olive_oil_bucket"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "croptopia"
+      ]
+    }
+  ]
+}

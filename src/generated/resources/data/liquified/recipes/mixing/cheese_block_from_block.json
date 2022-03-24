@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "liquified:cheese_block"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:cheese",
+      "amount": 81000
+    }
+  ],
+  "heatRequirement": "heated"
+}

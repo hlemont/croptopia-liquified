@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:fruits/lemons"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "fluid": "create:honey",
+      "nbt": {},
+      "amount": 27000
+    },
+    {
+      "fluid": "liquified:whipping_cream",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:treacle_tart",
+      "count": 3
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

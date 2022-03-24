@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:fruits/bellpeppers"
+    },
+    {
+      "tag": "c:vegetables/eggplant"
+    },
+    {
+      "tag": "c:vegetables/garlic"
+    },
+    {
+      "item": "croptopia:pepper"
+    },
+    {
+      "tag": "c:salts"
+    },
+    {
+      "fluid": "liquified:olive_oil",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:ajvar",
+      "amount": 27000
+    }
+  ]
+}

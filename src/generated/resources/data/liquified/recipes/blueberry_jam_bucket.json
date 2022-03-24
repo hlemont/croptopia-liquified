@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "croptopia:blueberry_jam"
+    },
+    {
+      "item": "croptopia:blueberry_jam"
+    },
+    {
+      "item": "croptopia:blueberry_jam"
+    }
+  ],
+  "result": {
+    "item": "liquified:blueberry_jam_bucket"
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "croptopia"
+      ]
+    }
+  ]
+}

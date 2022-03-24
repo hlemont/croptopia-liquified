@@ -1,11 +1,14 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.anodemc.croptopia.liquified.mixin",
+  "package": "com.anodemc.croptopialiquified.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "FluidBlockMixin"
   ],
-  "client": [],
+  "client": [
+    "BackgroundRendererMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }

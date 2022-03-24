@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:fruits/blackberries"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:blackberry_jam",
+      "amount": 27000
+    }
+  ],
+  "heatRequirement": "heated"
+}

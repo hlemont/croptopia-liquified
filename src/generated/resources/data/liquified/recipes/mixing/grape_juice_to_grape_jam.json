@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "liquified:grape_juice",
+      "nbt": {},
+      "amount": 81000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:grape_jam",
+      "amount": 27000
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "croptopia:meat_replacements"
+    },
+    {
+      "tag": "c:fruits/bellpeppers"
+    },
+    {
+      "tag": "c:vegetables/onion"
+    },
+    {
+      "tag": "c:vegetables/tomatoes"
+    },
+    {
+      "fluid": "liquified:cheese",
+      "nbt": {},
+      "amount": 20250
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:fajitas",
+      "count": 2
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

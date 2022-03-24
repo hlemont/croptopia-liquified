@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "croptopia:milk_bottle"
+    }
+  ],
+  "results": [
+    {
+      "item": "liquified:disposable_bottle"
+    },
+    {
+      "fluid": "milk:still_milk",
+      "amount": 27000
+    }
+  ]
+}

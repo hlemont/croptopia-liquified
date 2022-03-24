@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "croptopia:paprika"
+    },
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "fluid": "liquified:soy_milk",
+      "nbt": {},
+      "amount": 27000
+    },
+    {
+      "fluid": "liquified:coffee",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:pumpkin_spice_latte",
+      "amount": 54000
+    }
+  ],
+  "heatRequirement": "heated"
+}

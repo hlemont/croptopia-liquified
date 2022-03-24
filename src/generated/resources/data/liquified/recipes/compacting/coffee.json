@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:crops/coffee_beans"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:coffee",
+      "amount": 27000
+    }
+  ]
+}

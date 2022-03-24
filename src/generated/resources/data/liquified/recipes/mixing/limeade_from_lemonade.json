@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:fruits/limes"
+    },
+    {
+      "fluid": "liquified:lemonade",
+      "nbt": {},
+      "amount": 54000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:limeade",
+      "amount": 81000
+    }
+  ]
+}

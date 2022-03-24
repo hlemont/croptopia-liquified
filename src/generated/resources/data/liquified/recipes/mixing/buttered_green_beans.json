@@ -1,0 +1,29 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:vegetables/greenbeans"
+    },
+    {
+      "tag": "c:vegetables/ginger"
+    },
+    {
+      "tag": "c:salts"
+    },
+    {
+      "item": "croptopia:pepper"
+    },
+    {
+      "fluid": "liquified:butter",
+      "nbt": {},
+      "amount": 20250
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:buttered_green_beans"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

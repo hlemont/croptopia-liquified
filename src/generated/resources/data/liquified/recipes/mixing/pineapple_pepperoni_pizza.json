@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:doughs"
+    },
+    {
+      "tag": "c:cheeses"
+    },
+    {
+      "tag": "c:vegetables/tomatoes"
+    },
+    {
+      "tag": "c:fruits/pineapples"
+    },
+    {
+      "tag": "c:fruits/pineapples"
+    },
+    {
+      "tag": "c:peperoni"
+    },
+    {
+      "fluid": "liquified:cheese",
+      "nbt": {},
+      "amount": 20250
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:pineapple_pepperoni_pizza"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

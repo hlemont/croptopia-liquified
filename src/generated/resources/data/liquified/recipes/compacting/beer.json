@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:crops/hops"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:beer",
+      "amount": 27000
+    }
+  ]
+}

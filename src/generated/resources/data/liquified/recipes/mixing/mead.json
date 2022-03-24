@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 27000
+    },
+    {
+      "fluid": "create:honey",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "liquified:mead",
+      "amount": 54000
+    }
+  ]
+}

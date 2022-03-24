@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:doughs"
+    },
+    {
+      "tag": "c:crops/chile_peppers"
+    },
+    {
+      "item": "minecraft:chicken"
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:chicken_and_dumplings"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

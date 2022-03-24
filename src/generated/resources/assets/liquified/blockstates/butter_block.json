@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "liquified:block/butter_block"
+    }
+  }
+}

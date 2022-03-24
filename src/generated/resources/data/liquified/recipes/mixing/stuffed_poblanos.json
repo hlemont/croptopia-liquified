@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "croptopia:beef_replacements"
+    },
+    {
+      "item": "croptopia:pepper"
+    },
+    {
+      "tag": "c:crops/blackbeans"
+    },
+    {
+      "tag": "c:grain/corn"
+    },
+    {
+      "tag": "c:grain/rice"
+    },
+    {
+      "fluid": "liquified:cheese",
+      "nbt": {},
+      "amount": 20250
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:stuffed_poblanos"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

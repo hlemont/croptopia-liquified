@@ -1,0 +1,32 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:vegetables/broccoli"
+    },
+    {
+      "tag": "c:vegetables/garlic"
+    },
+    {
+      "tag": "c:vegetables/greenonions"
+    },
+    {
+      "tag": "c:fruits/bellpeppers"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "fluid": "liquified:olive_oil",
+      "nbt": {},
+      "amount": 13500
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:stir_fry"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
+}

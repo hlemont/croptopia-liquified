@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "liquified:cheese_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:cheese",
+      "count": 4
+    }
+  ]
+}
