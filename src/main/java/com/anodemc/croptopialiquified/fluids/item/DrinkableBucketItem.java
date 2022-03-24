@@ -56,6 +56,11 @@ public class DrinkableBucketItem extends BaseBucketItem {
     }
 
     @Override
+    public int getMaxUseTime(ItemStack stack) {
+        return 32;
+    }
+
+    @Override
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
         if (user instanceof ServerPlayerEntity) {
             ServerPlayerEntity serverPlayerEntity = (ServerPlayerEntity)user;
