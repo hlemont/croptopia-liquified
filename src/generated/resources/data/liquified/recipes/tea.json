@@ -3,15 +3,6 @@
   "ingredients": [
     {
       "item": "liquified:tea_bucket"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    },
-    {
-      "item": "minecraft:glass_bottle"
     }
   ],
   "result": {

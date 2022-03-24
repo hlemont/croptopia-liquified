@@ -35,7 +35,7 @@ public class RecipesProviders {
                     .offerTo(withConditions(exporter, DefaultResourceConditions.allModsLoaded(CroptopiaNames.MOD_ID)));
 
                 ShapelessRecipeJsonFactory fromBucketRecipeFactory = ShapelessRecipeJsonFactory.create(fluidVariant.getOriginalItem(), fluidVariant.getMultiplier()).input(fluidVariant.getBucketItem());
-                if(fluidVariant.getType() == LiquifiedFluidVariant.Type.DRINK)
+                if(fluidVariant.getType() == LiquifiedFluidVariant.Type.DRINK && fluidVariant.getOriginalItem() != CroptopiaItems.TEA)
                     for(int i = 0; i < fluidVariant.getMultiplier(); i++) fromBucketRecipeFactory.input(Items.GLASS_BOTTLE);
                 fromBucketRecipeFactory.criterion("has_bucket", conditionsFromItem(fluidVariant.getBucketItem()))
                 .offerTo(withConditions(exporter, DefaultResourceConditions.allModsLoaded(CroptopiaNames.MOD_ID)));

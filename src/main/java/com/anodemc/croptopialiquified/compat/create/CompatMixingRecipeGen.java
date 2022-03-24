@@ -239,12 +239,13 @@ public class CompatMixingRecipeGen extends ProcessingRecipeGen {
 
             HAM_SANDWICH = create(Registry.ITEM.getId(CroptopiaItems.HAM_SANDWICH), b -> b
                 .require(LiquifiedFluidManager.CHEESE.getStillFluid(), FluidConstants.BUCKET / LiquifiedFluidManager.CHEESE.getMultiplier())
+                .require(Items.BREAD)
                 .require(Items.COOKED_PORKCHOP)
                 .output(CroptopiaItems.HAM_SANDWICH)),
 
             DOUGH = create(Registry.ITEM.getId(CroptopiaItems.FLOUR), b -> b
                 .require(Fluids.WATER, FluidConstants.BOTTLE)
-                .require(CroptopiaItems.FLOUR)
+                .require(CommonItemTags.FLOUR)
                 .output(CroptopiaItems.DOUGH)
                 .requiresHeat(HeatCondition.NONE)),
             NOODLE = create(Registry.ITEM.getId(CroptopiaItems.NOODLE), b -> b
@@ -252,7 +253,7 @@ public class CompatMixingRecipeGen extends ProcessingRecipeGen {
                 .require(CommonItemTags.SALTS)
                 .require(CommonItemTags.FLOUR)
                 .output(CroptopiaItems.NOODLE)
-                .requiresHeat(HeatCondition.NONE)),
+                .requiresHeat(HeatCondition.HEATED)),
             AJVAR = create(Registry.ITEM.getId(CroptopiaItems.AJVAR), b -> b
                 .require(LiquifiedFluidManager.OLIVE_OIL.getStillFluid(), FluidConstants.BUCKET / LiquifiedFluidManager.OLIVE_OIL.getMultiplier())
                 .require(CommonItemTags.FRUITS.BELLPEPPERS)
@@ -358,6 +359,11 @@ public class CompatMixingRecipeGen extends ProcessingRecipeGen {
                 .require(CroptopiaItems.PAPRIKA)
                 .require(Items.PUMPKIN)
                 .output(LiquifiedFluidManager.PUMPKIN_SPICE_LATTE.getStillFluid(), FluidConstants.BOTTLE * 2)
+                .requiresHeat(HeatCondition.HEATED)),
+            TEA = create(LiquifiedFluidManager.TEA.getId(), b -> b
+                .require(Fluids.WATER, FluidConstants.BOTTLE)
+                .require(CroptopiaItems.TEA_LEAVES)
+                .output(LiquifiedFluidManager.TEA.getStillFluid(), FluidConstants.BOTTLE)
                 .requiresHeat(HeatCondition.HEATED)),
 
             // jams
@@ -610,7 +616,10 @@ public class CompatMixingRecipeGen extends ProcessingRecipeGen {
                 .require(CommonItemTags.VEGETABLES.TOMATOES)
                 .require(CommonItemTags.FRUITS.BELLPEPPERS)
                 .require(CommonItemTags.FRUITS.OLIVES)
-                .require(CroptopiaItemTags.MEAT_REPLACEMENTS)),
+                .require(CroptopiaItemTags.MEAT_REPLACEMENTS)
+                .output(CroptopiaItems.SUPREME_PIZZA)
+                .requiresHeat(HeatCondition.HEATED)
+                .duration(800)),
             QUESADILLA = create(Registry.ITEM.getId(CroptopiaItems.QUESADILLA), b -> b
                 .require(LiquifiedFluidManager.CHEESE.getStillFluid(), FluidConstants.BUCKET / LiquifiedFluidManager.CHEESE.getMultiplier())
                 .require(CommonItemTags.TORTILLAS)
@@ -775,7 +784,7 @@ public class CompatMixingRecipeGen extends ProcessingRecipeGen {
                 .require(CommonItemTags.FLOUR)
                 .require(CommonItemTags.FLOUR)
                 .require(Items.SUGAR)
-
+                .output(CroptopiaItems.DOUGHNUT)
                 .requiresHeat(HeatCondition.HEATED)
                 .duration(800)),
             DOUGHNUT_SOY_MILK = createRecipeWithAnyMilk(Registry.ITEM.getId(CroptopiaItems.DOUGHNUT), true, b -> b

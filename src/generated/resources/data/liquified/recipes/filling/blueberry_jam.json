@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "liquified:disposable_bottle"
+    },
+    {
+      "fluid": "liquified:blueberry_jam",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "item": "croptopia:blueberry_jam"
+    }
+  ]
+}

@@ -16,7 +16,11 @@
       "amount": 27000
     }
   ],
-  "results": [],
+  "results": [
+    {
+      "item": "croptopia:doughnut"
+    }
+  ],
   "processingTime": 800,
   "heatRequirement": "heated"
 }

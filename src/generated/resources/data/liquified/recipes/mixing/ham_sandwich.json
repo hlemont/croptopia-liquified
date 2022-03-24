@@ -2,6 +2,9 @@
   "type": "create:mixing",
   "ingredients": [
     {
+      "item": "minecraft:bread"
+    },
+    {
       "item": "minecraft:cooked_porkchop"
     },
     {

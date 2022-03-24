@@ -2,10 +2,7 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "tag": "c:salts"
-    },
-    {
-      "tag": "c:flour"
+      "item": "croptopia:tea_leaves"
     },
     {
       "fluid": "minecraft:water",
@@ -15,7 +12,8 @@
   ],
   "results": [
     {
-      "item": "croptopia:noodle"
+      "fluid": "liquified:tea",
+      "amount": 27000
     }
   ],
   "heatRequirement": "heated"

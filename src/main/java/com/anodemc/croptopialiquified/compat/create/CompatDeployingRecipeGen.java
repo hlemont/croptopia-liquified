@@ -29,7 +29,7 @@ public class CompatDeployingRecipeGen extends ProcessingRecipeGen {
                 .output(CroptopiaItems.TOAST_WITH_JAM)),
             AJVAR_TOAST = create(Registry.ITEM.getId(CroptopiaItems.AJVAR_TOAST), b -> b
                 .require(CommonItemTags.TOASTS)
-                .require(CroptopiaItems.TOAST_WITH_JAM)
+                .require(CroptopiaItems.AJVAR)
                 .output(CroptopiaItems.AJVAR_TOAST)),
             AVOCADO_TOAST = create(Registry.ITEM.getId(CroptopiaItems.AVOCADO_TOAST), b -> b
                 .require(CommonItemTags.TOASTS)
@@ -37,7 +37,7 @@ public class CompatDeployingRecipeGen extends ProcessingRecipeGen {
                 .output(CroptopiaItems.TOAST)),
             PEANUT_BUTTER_W_CELERY = create(Registry.ITEM.getId(CroptopiaItems.PEANUT_BUTTER_W_CELERY), b -> b
                 .require(CommonItemTags.VEGETABLES.CELERY)
-                .require(LiquifiedFluidManager.BUTTER.getHardenedBlock())
+                .require(CroptopiaItems.BUTTER)
                 .output(CroptopiaItems.PEANUT_BUTTER_W_CELERY))
         ;
     }

@@ -22,5 +22,11 @@
       "amount": 20250
     }
   ],
-  "results": []
+  "results": [
+    {
+      "item": "croptopia:supreme_pizza"
+    }
+  ],
+  "processingTime": 800,
+  "heatRequirement": "heated"
 }
