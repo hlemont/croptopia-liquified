@@ -61,6 +61,7 @@ public class DrinkableBucketItem extends BaseBucketItem {
             ServerPlayerEntity serverPlayerEntity = (ServerPlayerEntity)user;
             Criteria.CONSUME_ITEM.trigger(serverPlayerEntity, stack);
             serverPlayerEntity.incrementStat(Stats.USED.getOrCreateStat(this));
+            user.eatFood(world, stack);
         }
         if (user instanceof PlayerEntity && !((PlayerEntity)user).getAbilities().creativeMode) {
             stack.decrement(1);
