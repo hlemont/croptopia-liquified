@@ -16,6 +16,10 @@
   "results": [
     {
       "item": "croptopia:oatmeal"
+    },
+    {
+      "item": "croptopia:oatmeal",
+      "chance": 0.5
     }
   ]
 }

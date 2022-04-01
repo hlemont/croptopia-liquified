@@ -60,16 +60,16 @@ public class CompatCompactingRecipeGen extends ProcessingRecipeGen {
                 .require(CommonItemTags.FRUITS.LEMONS)
                 .require(CommonItemTags.FRUITS.LEMONS)
                 .require(CommonItemTags.FRUITS.LIMES)
-                .output(LiquifiedFluidManager.LIMEADE.getStillFluid(), FluidConstants.BOTTLE * 3)),
+                .output(LiquifiedFluidManager.LIMEADE.getStillFluid(), FluidConstants.BOTTLE * 3 * 3 / 2)),
 
             OLIVE_OIL = create(LiquifiedFluidManager.OLIVE_OIL.getId(), b -> b
                 .require(CommonItemTags.FRUITS.OLIVES)
                 .require(CommonItemTags.FRUITS.OLIVES)
-                .output(LiquifiedFluidManager.OLIVE_OIL.getStillFluid(), FluidConstants.BUCKET / LiquifiedFluidManager.OLIVE_OIL.getMultiplier())),
+                .output(LiquifiedFluidManager.OLIVE_OIL.getStillFluid(), FluidConstants.BUCKET / LiquifiedFluidManager.OLIVE_OIL.getMultiplier() * 3 / 2)),
             SOY_SAUCE = create(LiquifiedFluidManager.SOY_SAUCE.getId(), b -> b
                 .require(Fluids.WATER, FluidConstants.BOTTLE)
                 .require(CommonItemTags.VEGETABLES.SOYBEANS)
-                .output(LiquifiedFluidManager.SOY_MILK.getStillFluid(), FluidConstants.BUCKET / LiquifiedFluidManager.SOY_MILK.getMultiplier())),
+                .output(LiquifiedFluidManager.SOY_MILK.getStillFluid(), FluidConstants.BUCKET / LiquifiedFluidManager.SOY_MILK.getMultiplier() * 3 / 2)),
             PAPRIKA = create(Registry.ITEM.getId(CroptopiaItems.PAPRIKA), b -> b
                 .require(CommonItemTags.CROPS.CHILE_PEPPERS)
                 .output(CroptopiaItems.PAPRIKA)),
@@ -84,6 +84,7 @@ public class CompatCompactingRecipeGen extends ProcessingRecipeGen {
                 .require(CommonItemTags.FLOUR)
                 .require(Items.EGG)
                 .output(CroptopiaItems.BROWNIES, 1)
+                .output(0.5f, CroptopiaItems.BROWNIES, 1)
                 .requiresHeat(HeatCondition.HEATED)),
             BROWNIES_SOY_MILK = createRecipeWithAnyMilk(Registry.ITEM.getId(CroptopiaItems.BROWNIES), true, b -> b
                 .require(LiquifiedFluidManager.CHOCOLATE.getStillFluid(), FluidConstants.BUCKET / LiquifiedFluidManager.CHOCOLATE.getMultiplier())
@@ -91,6 +92,7 @@ public class CompatCompactingRecipeGen extends ProcessingRecipeGen {
                 .require(CommonItemTags.FLOUR)
                 .require(Items.EGG)
                 .output(CroptopiaItems.BROWNIES, 1)
+                .output(0.5f, CroptopiaItems.BROWNIES, 1)
                 .requiresHeat(HeatCondition.HEATED)),
             PROTEIN_BAR = create(Registry.ITEM.getId(CroptopiaItems.PROTEIN_BAR), b -> b
                 .require(LiquifiedFluidManager.CHOCOLATE.getStillFluid(), FluidConstants.BUCKET / LiquifiedFluidManager.CHOCOLATE.getMultiplier())
@@ -99,7 +101,7 @@ public class CompatCompactingRecipeGen extends ProcessingRecipeGen {
                 .require(CommonItemTags.NUTS.ROOT)
                 .require(Items.SUGAR)
                 .require(CommonItemTags.SALTS)
-                .output(CroptopiaItems.PROTEIN_BAR, 8)),
+                .output(CroptopiaItems.PROTEIN_BAR, 12)),
             LEMON_COCONUT_BAR = create(Registry.ITEM.getId(CroptopiaItems.LEMON_COCONUT_BAR), b -> b
                 .require(LiquifiedFluidManager.BUTTER.getStillFluid(), FluidConstants.BUCKET / LiquifiedFluidManager.BUTTER.getMultiplier())
                 .require(CommonItemTags.FRUITS.LEMONS)
@@ -107,7 +109,8 @@ public class CompatCompactingRecipeGen extends ProcessingRecipeGen {
                 .require(Items.SUGAR)
                 .require(Items.EGG)
                 .require(CommonItemTags.FLOUR)
-                .output(CroptopiaItems.LEMON_COCONUT_BAR))
+                .output(CroptopiaItems.LEMON_COCONUT_BAR, 1)
+                .output(0.5f, CroptopiaItems.LEMON_COCONUT_BAR, 1))
 
         ;
 
@@ -116,14 +119,14 @@ public class CompatCompactingRecipeGen extends ProcessingRecipeGen {
     private GeneratedRecipe generateSquashingCompactingRecipes(LiquifiedFluidVariant fluidVariant, Tag.Identified<Item> tag) {
         return create(fluidVariant.getId(), b -> b
             .require(tag)
-            .output(fluidVariant.getStillFluid(), FluidConstants.BOTTLE)
+            .output(fluidVariant.getStillFluid(), FluidConstants.BOTTLE * 3 / 2)
         );
     }
 
     private GeneratedRecipe generateSquashingCompactingRecipes(LiquifiedFluidVariant fluidVariant, Item item) {
         return create(fluidVariant.getId(), b -> b
             .require(item)
-            .output(fluidVariant.getStillFluid(), FluidConstants.BOTTLE)
+            .output(fluidVariant.getStillFluid(), FluidConstants.BOTTLE * 3 / 2)
         );
     }
 

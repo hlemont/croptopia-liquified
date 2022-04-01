@@ -19,6 +19,10 @@
   "results": [
     {
       "item": "croptopia:pecan_ice_cream"
+    },
+    {
+      "item": "croptopia:pecan_ice_cream",
+      "chance": 0.5
     }
   ]
 }

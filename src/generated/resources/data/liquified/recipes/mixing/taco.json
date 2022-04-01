@@ -24,7 +24,11 @@
   "results": [
     {
       "item": "croptopia:taco"
+    },
+    {
+      "item": "croptopia:taco",
+      "chance": 0.5
     }
   ],
-  "processingTime": 800
+  "processingTime": 250
 }

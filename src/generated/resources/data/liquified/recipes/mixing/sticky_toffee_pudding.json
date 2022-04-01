@@ -33,8 +33,12 @@
   "results": [
     {
       "item": "croptopia:sticky_toffee_pudding"
+    },
+    {
+      "item": "croptopia:sticky_toffee_pudding",
+      "chance": 0.5
     }
   ],
-  "processingTime": 800,
+  "processingTime": 250,
   "heatRequirement": "heated"
 }

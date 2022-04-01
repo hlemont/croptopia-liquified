@@ -19,8 +19,12 @@
   "results": [
     {
       "item": "croptopia:cheesy_asparagus"
+    },
+    {
+      "item": "croptopia:cheesy_asparagus",
+      "chance": 0.5
     }
   ],
-  "processingTime": 800,
+  "processingTime": 250,
   "heatRequirement": "heated"
 }

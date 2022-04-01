@@ -17,7 +17,7 @@
       "tag": "c:fruits/pineapples"
     },
     {
-      "tag": "c:peperoni"
+      "tag": "c:pepperoni"
     },
     {
       "fluid": "liquified:cheese",
@@ -28,8 +28,12 @@
   "results": [
     {
       "item": "croptopia:pineapple_pepperoni_pizza"
+    },
+    {
+      "item": "croptopia:pineapple_pepperoni_pizza",
+      "chance": 0.5
     }
   ],
-  "processingTime": 800,
+  "processingTime": 250,
   "heatRequirement": "heated"
 }

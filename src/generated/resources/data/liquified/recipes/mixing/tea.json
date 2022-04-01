@@ -7,13 +7,13 @@
     {
       "fluid": "minecraft:water",
       "nbt": {},
-      "amount": 27000
+      "amount": 54000
     }
   ],
   "results": [
     {
       "fluid": "liquified:tea",
-      "amount": 27000
+      "amount": 54000
     }
   ],
   "heatRequirement": "heated"

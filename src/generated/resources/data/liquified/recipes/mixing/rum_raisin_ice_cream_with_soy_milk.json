@@ -24,6 +24,10 @@
   "results": [
     {
       "item": "croptopia:rum_raisin_ice_cream"
+    },
+    {
+      "item": "croptopia:rum_raisin_ice_cream",
+      "chance": 0.5
     }
   ]
 }

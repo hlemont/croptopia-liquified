@@ -13,6 +13,10 @@
   "results": [
     {
       "item": "croptopia:grilled_cheese"
+    },
+    {
+      "item": "croptopia:grilled_cheese",
+      "chance": 0.5
     }
   ]
 }

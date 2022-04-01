@@ -2,7 +2,7 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "tag": "c:vegetables/artichoke"
+      "tag": "c:vegetables/artichokes"
     },
     {
       "fluid": "liquified:cheese",
@@ -13,7 +13,7 @@
   "results": [
     {
       "fluid": "liquified:artichoke_dip",
-      "amount": 27000
+      "amount": 40500
     }
   ],
   "heatRequirement": "heated"

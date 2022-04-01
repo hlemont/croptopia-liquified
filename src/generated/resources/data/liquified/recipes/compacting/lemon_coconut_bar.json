@@ -25,6 +25,10 @@
   "results": [
     {
       "item": "croptopia:lemon_coconut_bar"
+    },
+    {
+      "item": "croptopia:lemon_coconut_bar",
+      "chance": 0.5
     }
   ]
 }

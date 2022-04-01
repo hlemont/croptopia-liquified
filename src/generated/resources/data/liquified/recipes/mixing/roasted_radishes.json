@@ -22,9 +22,9 @@
   "results": [
     {
       "item": "croptopia:roasted_radishes",
-      "count": 2
+      "count": 3
     }
   ],
-  "processingTime": 800,
+  "processingTime": 250,
   "heatRequirement": "heated"
 }

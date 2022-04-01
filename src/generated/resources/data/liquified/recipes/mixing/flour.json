@@ -13,6 +13,10 @@
   "results": [
     {
       "item": "croptopia:dough"
+    },
+    {
+      "item": "croptopia:dough",
+      "chance": 0.5
     }
   ]
 }

@@ -13,6 +13,10 @@
   "results": [
     {
       "item": "croptopia:kiwi_sorbet"
+    },
+    {
+      "item": "croptopia:kiwi_sorbet",
+      "chance": 0.5
     }
   ]
 }

@@ -13,6 +13,10 @@
   "results": [
     {
       "item": "croptopia:peanut_butter_with_celery"
+    },
+    {
+      "item": "croptopia:peanut_butter_with_celery",
+      "chance": 0.5
     }
   ]
 }

@@ -30,9 +30,9 @@
   "results": [
     {
       "item": "croptopia:tres_leche_cake",
-      "count": 2
+      "count": 3
     }
   ],
-  "processingTime": 800,
+  "processingTime": 250,
   "heatRequirement": "heated"
 }

@@ -25,8 +25,12 @@
   "results": [
     {
       "item": "croptopia:supreme_pizza"
+    },
+    {
+      "item": "croptopia:supreme_pizza",
+      "chance": 0.5
     }
   ],
-  "processingTime": 800,
+  "processingTime": 250,
   "heatRequirement": "heated"
 }

@@ -93,7 +93,7 @@ public class CommonItemTags {
         public static final String PATH = "vegetables";
         public static final Tag.Identified<Item> ROOT = create(PATH);
 
-        public static final Tag.Identified<Item> ARTICHOKES = create(PATH, "artichoke");
+        public static final Tag.Identified<Item> ARTICHOKES = create(PATH, "artichokes");
         public static final Tag.Identified<Item> ASPARAGUS = create(PATH, "asparagus");
         public static final Tag.Identified<Item> BROCCOLI = create(PATH, "broccoli");
         public static final Tag.Identified<Item> CABBAGE = create(PATH, "cabbage");
@@ -116,7 +116,7 @@ public class CommonItemTags {
         public static final Tag.Identified<Item> SOYBEANS = create(PATH, "soybeans");
         public static final Tag.Identified<Item> SPINACH = create(PATH, "spinach");
         public static final Tag.Identified<Item> SQUASH = create(PATH, "squash");
-        public static final Tag.Identified<Item> SWEETPOTATOES = create(PATH, "sweetpotatoes");
+        public static final Tag.Identified<Item> SWEETPOTATOS = create(PATH, "sweetpotatos");
         public static final Tag.Identified<Item> TOMATILLOS = create(PATH, "tomatillos");
         public static final Tag.Identified<Item> TOMATOES = create(PATH, "tomatoes");
         public static final Tag.Identified<Item> TURNIPS = create(PATH, "turnips");
@@ -146,7 +146,7 @@ public class CommonItemTags {
     public static final Tag.Identified<Item> TOFU = create("tofu");
     public static final Tag.Identified<Item> CHEESES = create("cheeses");
     public static final Tag.Identified<Item> JELLIES = create("jellies");
-    public static final Tag.Identified<Item> PEPPERONI = create("peperoni");
-    public static final Tag.Identified<Item> BUTTER = create("butter");
+    public static final Tag.Identified<Item> PEPPERONI = create("pepperoni");
+    public static final Tag.Identified<Item> BUTTERS = create("butters");
 
 }

@@ -10,13 +10,13 @@
   "results": [
     {
       "item": "croptopia:salt",
-      "count": 3
+      "count": 4
     },
     {
       "item": "croptopia:salt_ore",
       "chance": 0.02
     }
   ],
-  "processingTime": 800,
+  "processingTime": 250,
   "heatRequirement": "heated"
 }

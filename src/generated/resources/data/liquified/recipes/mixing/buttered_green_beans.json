@@ -22,8 +22,12 @@
   "results": [
     {
       "item": "croptopia:buttered_green_beans"
+    },
+    {
+      "item": "croptopia:buttered_green_beans",
+      "chance": 0.5
     }
   ],
-  "processingTime": 800,
+  "processingTime": 250,
   "heatRequirement": "heated"
 }

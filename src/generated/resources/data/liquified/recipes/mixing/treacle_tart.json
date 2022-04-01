@@ -27,9 +27,9 @@
   "results": [
     {
       "item": "croptopia:treacle_tart",
-      "count": 3
+      "count": 5
     }
   ],
-  "processingTime": 800,
+  "processingTime": 250,
   "heatRequirement": "heated"
 }

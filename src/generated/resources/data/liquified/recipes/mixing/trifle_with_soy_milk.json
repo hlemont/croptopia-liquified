@@ -2,7 +2,7 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "tag": "c:butter"
+      "tag": "c:butters"
     },
     {
       "item": "minecraft:egg"
@@ -30,6 +30,10 @@
   "results": [
     {
       "item": "croptopia:trifle"
+    },
+    {
+      "item": "croptopia:trifle",
+      "chance": 0.5
     }
   ]
 }

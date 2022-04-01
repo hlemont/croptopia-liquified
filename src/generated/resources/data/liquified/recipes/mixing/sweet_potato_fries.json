@@ -2,7 +2,7 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "tag": "c:vegetables/sweetpotatoes"
+      "tag": "c:vegetables/sweetpotatos"
     },
     {
       "tag": "c:salts"
@@ -16,8 +16,12 @@
   "results": [
     {
       "item": "croptopia:sweet_potato_fries"
+    },
+    {
+      "item": "croptopia:sweet_potato_fries",
+      "chance": 0.5
     }
   ],
-  "processingTime": 800,
+  "processingTime": 250,
   "heatRequirement": "heated"
 }

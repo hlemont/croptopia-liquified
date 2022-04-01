@@ -49,11 +49,6 @@ public class CompatFillingRecipeGen extends ProcessingRecipeGen {
                 .require(ItemRegistry.DISPOSABLE_BOTTLE)
                 .output(fluidVariant.getOriginalItem()));
         }
-//        for(var fluidVariant: LiquifiedFluidManager.getLiquidIngredientFluids()) {
-//            create(fluidVariant.getOriginalItemId(), b -> b
-//                .require(fluidVariant.getStillFluid(), FluidConstants.BUCKET / fluidVariant.getMultiplier())
-//                .output(fluidVariant.getOriginalItem()));
-//        }
     }
 
     private void generateGeneralFillingRecipes() {

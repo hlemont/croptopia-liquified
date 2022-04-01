@@ -19,8 +19,12 @@
   "results": [
     {
       "item": "croptopia:almond_brittle"
+    },
+    {
+      "item": "croptopia:almond_brittle",
+      "chance": 0.5
     }
   ],
-  "processingTime": 800,
+  "processingTime": 250,
   "heatRequirement": "heated"
 }

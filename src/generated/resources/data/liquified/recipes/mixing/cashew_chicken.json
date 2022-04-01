@@ -22,8 +22,12 @@
   "results": [
     {
       "item": "croptopia:cashew_chicken"
+    },
+    {
+      "item": "croptopia:cashew_chicken",
+      "chance": 0.5
     }
   ],
-  "processingTime": 800,
+  "processingTime": 250,
   "heatRequirement": "heated"
 }

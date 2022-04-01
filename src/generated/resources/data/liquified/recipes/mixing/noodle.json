@@ -16,7 +16,10 @@
   "results": [
     {
       "item": "croptopia:noodle"
+    },
+    {
+      "item": "croptopia:noodle",
+      "chance": 0.5
     }
-  ],
-  "heatRequirement": "heated"
+  ]
 }

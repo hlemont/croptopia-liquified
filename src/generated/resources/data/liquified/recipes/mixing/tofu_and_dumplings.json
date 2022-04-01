@@ -14,8 +14,12 @@
   "results": [
     {
       "item": "croptopia:tofu_and_dumplings"
+    },
+    {
+      "item": "croptopia:tofu_and_dumplings",
+      "chance": 0.5
     }
   ],
-  "processingTime": 800,
+  "processingTime": 250,
   "heatRequirement": "heated"
 }

@@ -22,8 +22,12 @@
   "results": [
     {
       "item": "croptopia:chili_relleno"
+    },
+    {
+      "item": "croptopia:chili_relleno",
+      "chance": 0.5
     }
   ],
-  "processingTime": 800,
+  "processingTime": 250,
   "heatRequirement": "heated"
 }

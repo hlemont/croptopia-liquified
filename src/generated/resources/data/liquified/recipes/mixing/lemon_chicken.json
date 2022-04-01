@@ -17,6 +17,10 @@
   "results": [
     {
       "item": "croptopia:lemon_chicken"
+    },
+    {
+      "item": "croptopia:lemon_chicken",
+      "chance": 0.5
     }
   ]
 }

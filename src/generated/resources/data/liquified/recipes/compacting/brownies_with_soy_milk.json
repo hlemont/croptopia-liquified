@@ -24,6 +24,10 @@
   "results": [
     {
       "item": "croptopia:brownies"
+    },
+    {
+      "item": "croptopia:brownies",
+      "chance": 0.5
     }
   ],
   "heatRequirement": "heated"

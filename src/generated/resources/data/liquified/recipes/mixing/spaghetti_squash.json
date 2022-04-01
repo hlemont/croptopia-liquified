@@ -16,8 +16,12 @@
   "results": [
     {
       "item": "croptopia:spaghetti_squash"
+    },
+    {
+      "item": "croptopia:spaghetti_squash",
+      "chance": 0.5
     }
   ],
-  "processingTime": 800,
+  "processingTime": 250,
   "heatRequirement": "heated"
 }

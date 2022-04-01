@@ -27,8 +27,12 @@
   "results": [
     {
       "item": "croptopia:beef_stir_fry"
+    },
+    {
+      "item": "croptopia:beef_stir_fry",
+      "chance": 0.5
     }
   ],
-  "processingTime": 800,
+  "processingTime": 250,
   "heatRequirement": "heated"
 }

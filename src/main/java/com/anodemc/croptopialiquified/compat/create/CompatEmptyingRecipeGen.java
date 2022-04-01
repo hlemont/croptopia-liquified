@@ -29,6 +29,7 @@ public class CompatEmptyingRecipeGen extends ProcessingRecipeGen {
 
     private void generateDrinkEmptyingRecipes() {
         for(var fluidVariant: LiquifiedFluidManager.getDrinkFluids()) {
+            // to be removed:
             if(fluidVariant == LiquifiedFluidManager.TEA) continue;
             create(fluidVariant.getOriginalItemId(), b -> b
                 .require(fluidVariant.getOriginalItem())

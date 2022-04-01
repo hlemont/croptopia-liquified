@@ -25,6 +25,10 @@
   "results": [
     {
       "item": "croptopia:eton_mess"
+    },
+    {
+      "item": "croptopia:eton_mess",
+      "chance": 0.5
     }
   ]
 }
