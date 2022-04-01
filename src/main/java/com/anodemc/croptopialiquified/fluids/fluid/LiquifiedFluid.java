@@ -3,6 +3,7 @@ package com.anodemc.croptopialiquified.fluids.fluid;
 import com.anodemc.croptopialiquified.fluids.variant.LiquifiedFluidVariant;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.FluidBlock;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.FluidState;
@@ -33,7 +34,7 @@ public class LiquifiedFluid extends WaterFluid {
 
     @Override
     public BlockState toBlockState(FluidState state) {
-        return getCompoundFluid().getFluidBlock().getDefaultState().with(Properties.LEVEL_15, getBlockStateLevel(state));
+        return getCompoundFluid().getFluidBlock().getDefaultState().with(FluidBlock.LEVEL, getBlockStateLevel(state));
     }
 
     @Override
