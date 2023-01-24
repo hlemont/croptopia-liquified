@@ -20,7 +20,7 @@ import java.util.Map;
 public class LiquifiedFluidManager {
     private static final int DRINK_MULTIPLIER = 3;
     private static final int LIQUID_INGREDIENT_MULTIPLIER = 3;
-    private static final int MELTED_INGREDIENT_MULTIPLIER = 4;
+    private static final int MELTED_INGREDIENT_MULTIPLIER = 9;
 
 
     private static Map<Identifier, LiquifiedFluidVariant> allFluidMap = new HashMap<>();

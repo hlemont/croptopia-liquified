@@ -34,7 +34,7 @@ public class CompatDeployingRecipeGen extends ProcessingRecipeGen {
             AVOCADO_TOAST = create(Registry.ITEM.getId(CroptopiaItems.AVOCADO_TOAST), b -> b
                 .require(CommonItemTags.TOASTS)
                 .require(CommonItemTags.FRUITS.AVOCADOS)
-                .output(CroptopiaItems.TOAST)),
+                .output(CroptopiaItems.AVOCADO_TOAST)),
             PEANUT_BUTTER_W_CELERY = create(Registry.ITEM.getId(CroptopiaItems.PEANUT_BUTTER_W_CELERY), b -> b
                 .require(CommonItemTags.VEGETABLES.CELERY)
                 .require(CroptopiaItems.BUTTER)

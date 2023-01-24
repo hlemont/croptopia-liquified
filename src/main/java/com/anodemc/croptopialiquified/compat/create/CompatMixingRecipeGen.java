@@ -24,6 +24,7 @@ import net.minecraft.util.registry.Registry;
 
 import java.util.function.UnaryOperator;
 
+@SuppressWarnings("UnstableApiUsage")
 public class CompatMixingRecipeGen extends ProcessingRecipeGen {
 
     public CompatMixingRecipeGen(FabricDataGenerator generator) {
@@ -114,7 +115,7 @@ public class CompatMixingRecipeGen extends ProcessingRecipeGen {
                 .require(CommonItemTags.FRUITS.ROOT)
                 .require(CommonItemTags.FRUITS.ROOT)
                 .require(Items.ICE)
-                .output(LiquifiedFluidManager.FRUIT_SMOOTHIE.getStillFluid(), FluidConstants.BOTTLE * 3 * 3 / 2)
+                .output(LiquifiedFluidManager.FRUIT_SMOOTHIE.getStillFluid(), FluidConstants.BOTTLE * 2 * 3 / 2)
                 .requiresHeat(HeatCondition.NONE)
             ),
             FRUIT_SMOOTHIE_SOY_MILK = createRecipeWithAnyMilk(LiquifiedFluidManager.FRUIT_SMOOTHIE.getId(), true, b -> b
@@ -122,7 +123,7 @@ public class CompatMixingRecipeGen extends ProcessingRecipeGen {
                 .require(CommonItemTags.FRUITS.ROOT)
                 .require(CommonItemTags.FRUITS.ROOT)
                 .require(Items.ICE)
-                .output(LiquifiedFluidManager.FRUIT_SMOOTHIE.getStillFluid(), FluidConstants.BOTTLE * 3 * 3 / 2)
+                .output(LiquifiedFluidManager.FRUIT_SMOOTHIE.getStillFluid(), FluidConstants.BOTTLE * 2 * 3 / 2)
                 .requiresHeat(HeatCondition.NONE)
             ),
 
@@ -357,13 +358,12 @@ public class CompatMixingRecipeGen extends ProcessingRecipeGen {
     private void generateCookingBoilingRecipes() {
         GeneratedRecipe
             SALT = create(Registry.ITEM.getId(CroptopiaItems.SALT), b -> b
-            .require(Fluids.WATER, FluidConstants.BUCKET)
+            .require(Fluids.WATER, FluidConstants.BOTTLE)
             .output(CroptopiaItems.SALT, 4)
             .output(0.02f, CroptopiaItems.SALT_ORE)
-            .requiresHeat(HeatCondition.HEATED)
-            .duration(250)),
+            .requiresHeat(HeatCondition.HEATED)),
             MOLASSES = create(Registry.ITEM.getId(CroptopiaItems.MOLASSES), b -> b
-                .require(Fluids.WATER, FluidConstants.BUCKET)
+                .require(Fluids.WATER, FluidConstants.BOTTLE)
                 .require(Items.SUGAR_CANE)
                 .require(Items.SUGAR_CANE)
                 .output(LiquifiedFluidManager.MOLASSES.getStillFluid(), FluidConstants.BOTTLE * 3)
@@ -439,7 +439,11 @@ public class CompatMixingRecipeGen extends ProcessingRecipeGen {
             CHOCOLATE = create(LiquifiedFluidManager.CHOCOLATE.getId(), b -> b
                 .require(LiquifiedFluidManager.BUTTER.getStillFluid(), FluidConstants.BUCKET / LiquifiedFluidManager.BUTTER.getMultiplier())
                 .require(Items.COCOA_BEANS)
-                .output(LiquifiedFluidManager.CHOCOLATE.getStillFluid(), FluidConstants.BUCKET / LiquifiedFluidManager.CHOCOLATE.getMultiplier() * 3 / 2)
+                .output(LiquifiedFluidManager.CHOCOLATE.getStillFluid(), FluidConstants.BUCKET)
+                .requiresHeat(HeatCondition.HEATED)),
+            CARAMEL = create(LiquifiedFluidManager.CARAMEL.getId(), b -> b
+                .require(Items.SUGAR)
+                .output(LiquifiedFluidManager.CARAMEL.getStillFluid(), FluidConstants.BUCKET / LiquifiedFluidManager.CARAMEL.getMultiplier() * 3 / 2)
                 .requiresHeat(HeatCondition.HEATED)),
 
             // frying
