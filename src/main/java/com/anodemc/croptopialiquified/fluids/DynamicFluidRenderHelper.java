@@ -69,6 +69,6 @@ public class DynamicFluidRenderHelper {
     }
 
     public static Boolean allResourceExists(Identifier... ids) {
-        return Arrays.stream(ids).allMatch(id -> MinecraftClient.getInstance().getResourceManager().containsResource(id));
+        return Arrays.stream(ids).allMatch(id -> MinecraftClient.getInstance().getResourceManager().getResource(id).isPresent());
     }
 }

@@ -15,10 +15,11 @@ import com.simibubi.create.foundation.utility.recipe.IRecipeTypeInfo;
 import io.github.tropheusj.milk.Milk;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.transfer.v1.fluid.FluidConstants;
+import net.minecraft.block.Blocks;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
-import net.minecraft.tag.Tag;
+import net.minecraft.tag.TagKey;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -46,16 +47,21 @@ public class CompatCompactingRecipeGen extends ProcessingRecipeGen {
             ORANGE_JUICE = generateSquashingCompactingRecipes(LiquifiedFluidManager.ORANGE_JUICE, CommonItemTags.FRUITS.ORANGES),
             APPLE_JUICE = generateSquashingCompactingRecipes(LiquifiedFluidManager.APPLE_JUICE, Items.APPLE),
             CRANBERRY_JUICE = generateSquashingCompactingRecipes(LiquifiedFluidManager.CRANBERRY_JUICE, CommonItemTags.FRUITS.CRANBERRIES),
-            SAGUARO_JUICE = generateSquashingCompactingRecipes(LiquifiedFluidManager.SAGUARO_JUICE, CommonItemTags.SAGUAROS),
+            SAGUARO_JUICE = generateSquashingCompactingRecipes(LiquifiedFluidManager.SAGUARO_JUICE, CommonItemTags.FRUITS.SAGUAROS),
             TOMATO_JUICE = generateSquashingCompactingRecipes(LiquifiedFluidManager.TOMATO_JUICE, CommonItemTags.VEGETABLES.TOMATOES),
             MELON_JUICE = generateSquashingCompactingRecipes(LiquifiedFluidManager.MELON_JUICE, CroptopiaItemTags.MELONS),
             PINEAPPLE_JUICE = generateSquashingCompactingRecipes(LiquifiedFluidManager.PINEAPPLE_JUICE, CommonItemTags.FRUITS.PINEAPPLES),
-            COFFEE = generateSquashingCompactingRecipes(LiquifiedFluidManager.COFFEE, CommonItemTags.CROPS.COFFEE_BEANS),
             BEER = generateSquashingCompactingRecipes(LiquifiedFluidManager.BEER, CommonItemTags.CROPS.HOPS),
             LEMONADE = generateSquashingCompactingRecipes(LiquifiedFluidManager.LEMONADE, CommonItemTags.FRUITS.LEMONS),
 
             SOY_MILK = generateSquashingCompactingRecipes(LiquifiedFluidManager.SOY_MILK, CommonItemTags.VEGETABLES.SOYBEANS),
             PEANUT_BUTTER = generateSquashingCompactingRecipes(LiquifiedFluidManager.PEANUT_BUTTER, CommonItemTags.CROPS.PEANUTS),
+
+            COFFEE = create(LiquifiedFluidManager.COFFEE.getId(), b -> b
+                .require(CommonItemTags.CROPS.COFFEE_BEANS)
+                .require(Fluids.WATER, FluidConstants.BOTTLE * 2)
+                .requiresHeat(HeatCondition.HEATED)
+                .output(LiquifiedFluidManager.COFFEE.getStillFluid(), FluidConstants.BOTTLE * 2)),
             LIMEADE = create(LiquifiedFluidManager.LIMEADE.getId(), b -> b
                 .require(CommonItemTags.FRUITS.LEMONS)
                 .require(CommonItemTags.FRUITS.LEMONS)
@@ -116,7 +122,7 @@ public class CompatCompactingRecipeGen extends ProcessingRecipeGen {
 
     }
 
-    private GeneratedRecipe generateSquashingCompactingRecipes(LiquifiedFluidVariant fluidVariant, Tag.Identified<Item> tag) {
+    private GeneratedRecipe generateSquashingCompactingRecipes(LiquifiedFluidVariant fluidVariant, TagKey<Item> tag) {
         return create(fluidVariant.getId(), b -> b
             .require(tag)
             .output(fluidVariant.getStillFluid(), FluidConstants.BOTTLE * 3 / 2)

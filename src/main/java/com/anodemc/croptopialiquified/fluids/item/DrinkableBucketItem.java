@@ -13,7 +13,8 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
-import org.checkerframework.checker.nullness.qual.Nullable;
+
+import javax.annotation.Nullable;
 
 public class DrinkableBucketItem extends BaseBucketItem {
     public DrinkableBucketItem(LiquifiedFluidVariant liquifiedFluidVariant, Settings settings, int multiplier) {

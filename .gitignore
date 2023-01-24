@@ -31,3 +31,8 @@ bin/
 # fabric
 
 run/
+
+
+# generated
+
+src/generated/

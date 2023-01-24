@@ -7,8 +7,7 @@ import com.anodemc.croptopialiquified.registry.ItemRegistry;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.item.Item;
-
-import static com.simibubi.create.lib.util.TagUtil.UPRIGHT_ON_BELT;
+import static com.simibubi.create.AllTags.AllItemTags.UPRIGHT_ON_BELT;
 
 public class CreateCompatTagProvider extends FabricTagProvider.ItemTagProvider {
 
@@ -18,7 +17,7 @@ public class CreateCompatTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void generateTags() {
-        FabricTagBuilder<Item> builder = getOrCreateTagBuilder(UPRIGHT_ON_BELT);
+        FabricTagBuilder<Item> builder = getOrCreateTagBuilder(UPRIGHT_ON_BELT.tag);
         for(var drink: LiquifiedFluidManager.getDrinkFluids().stream().map(LiquifiedFluidVariant::getOriginalItem).toList()) {
             builder.add(drink);
         }

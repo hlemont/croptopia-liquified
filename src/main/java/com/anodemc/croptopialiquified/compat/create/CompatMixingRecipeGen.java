@@ -18,7 +18,7 @@ import net.fabricmc.fabric.api.transfer.v1.fluid.FluidConstants;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
-import net.minecraft.tag.Tag;
+import net.minecraft.tag.TagKey;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -519,7 +519,7 @@ public class CompatMixingRecipeGen extends ProcessingRecipeGen {
                 .require(CommonItemTags.VEGETABLES.GARLIC)
                 .require(CommonItemTags.SALTS)
                 .require(CroptopiaItems.PEPPER)
-                .require(CommonItemTags.CROPS.PAPRIKA)
+                .require(CommonItemTags.PAPRIKA)
                 .output(CroptopiaItems.GRILLED_EGGPLANT)
                 .output(0.5f, CroptopiaItems.GRILLED_EGGPLANT)
                 .requiresHeat(HeatCondition.HEATED)
@@ -767,7 +767,7 @@ public class CompatMixingRecipeGen extends ProcessingRecipeGen {
                 .duration(250)),
             CASHEW_CHICKEN = create(Registry.ITEM.getId(CroptopiaItems.CASHEW_CHICKEN), b -> b
                 .require(LiquifiedFluidManager.SOY_SAUCE.getStillFluid(), FluidConstants.BUCKET / LiquifiedFluidManager.SOY_SAUCE.getMultiplier() / 2)
-                .require(CommonItemTags.FRUITS.CASHEWS)
+                .require(CommonItemTags.CROPS.CASHEWS)
                 .require(Items.COOKED_CHICKEN)
                 .require(CommonItemTags.VEGETABLES.CABBAGE)
                 .require(Items.CARROT)
@@ -899,7 +899,7 @@ public class CompatMixingRecipeGen extends ProcessingRecipeGen {
         );
     }
 
-    private GeneratedRecipe createJamRecipe(LiquifiedFluidVariant fluidVariant, Tag.Identified<Item> tag) {
+    private GeneratedRecipe createJamRecipe(LiquifiedFluidVariant fluidVariant, TagKey<Item> tag) {
         return create(fluidVariant.getId(), b -> b
             .require(tag)
             .require(Items.SUGAR)

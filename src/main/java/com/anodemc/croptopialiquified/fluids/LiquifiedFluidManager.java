@@ -9,7 +9,9 @@ import com.anodemc.croptopialiquified.fluids.variant.LiquifiedFluidVariant;
 import com.anodemc.croptopialiquified.fluids.variant.MeltedFluidVariant;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.Material;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 
@@ -328,7 +330,7 @@ public class LiquifiedFluidManager {
         return registerMeltedIngredientFluid(id, multiplier, color,
             FabricBlockSettings.copyOf(Blocks.WATER),
             new FabricItemSettings().group(Liquified.ITEM_GROUP).maxCount(1).recipeRemainder(Items.BUCKET),
-            FabricBlockSettings.copyOf(Blocks.STONE).breakByHand(true).hardness(0.0f).resistance(0.0f),
+            FabricBlockSettings.of(Material.SOLID_ORGANIC).breakInstantly(),
             new FabricItemSettings().group(Liquified.ITEM_GROUP)
         );
     }

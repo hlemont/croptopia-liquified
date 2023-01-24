@@ -1,29 +1,21 @@
 package com.anodemc.croptopialiquified.data;
 
 
-import com.anodemc.croptopialiquified.Liquified;
 import com.anodemc.croptopialiquified.fluids.LiquifiedFluidManager;
-import com.anodemc.croptopialiquified.fluids.block.DerivedBlockModels;
-import com.anodemc.croptopialiquified.fluids.variant.LiquifiedFluidVariant;
-import net.fabricmc.fabric.api.client.model.ExtraModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockStateDefinitionProvider;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.block.Blocks;
-import net.minecraft.client.MinecraftClient;
+import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.model.BlockStateModelGenerator;
-import net.minecraft.data.client.model.Models;
-import net.minecraft.server.MinecraftServer;
-import net.minecraft.util.Identifier;
+import net.minecraft.data.client.Models;
 
-public class BlockStateDefinitionProviders {
-    public static class FluidBlockStateDefinitionProvider extends FabricBlockStateDefinitionProvider {
+public class ModelProviders {
+    public static class FluidModelProvider extends FabricModelProvider {
 
-        public FluidBlockStateDefinitionProvider(FabricDataGenerator dataGenerator) {
+        public FluidModelProvider(FabricDataGenerator dataGenerator) {
             super(dataGenerator);
         }
 
-        @Override
         public void generateBlockStateModels(BlockStateModelGenerator generator) {
             LiquifiedFluidManager.getAllFluids()
                 .forEach(fluidVariant -> generator.registerStateWithModelReference(fluidVariant.getFluidBlock(), Blocks.WATER));
@@ -33,7 +25,6 @@ public class BlockStateDefinitionProviders {
                     .forEach(fluidVariant -> generator.registerSimpleCubeAll(fluidVariant.getHardenedBlock()));
         }
 
-        @Override
         public void generateItemModels(ItemModelGenerator generator) {
             // add buckets for all fluids
             LiquifiedFluidManager.getAllFluids()
