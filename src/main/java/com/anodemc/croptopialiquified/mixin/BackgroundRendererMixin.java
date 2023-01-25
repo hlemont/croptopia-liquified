@@ -32,14 +32,23 @@ public class BackgroundRendererMixin {
     @Shadow
     private static float blue;
 
-    @ModifyArgs(method = "render", at = @At(value = "INVOKE", target = "Lcom/mojang/blaze3d/systems/RenderSystem;clearColor(FFFF)V", remap = false))
-    private static void modifyFluidFogColor(Args args, Camera camera, float partialTicks, ClientWorld level, int renderDistanceChunks, float bossColorModifier) {
-        FluidState state = level.getFluidState(camera.getBlockPos());
+    @Shadow
+    private static long lastWaterFogColorUpdateTime;
+
+    @Inject(method = "render", at = @At(value = "INVOKE", target = "Lcom/mojang/blaze3d/systems/RenderSystem;clearColor(FFFF)V", remap = false), cancellable = true)
+    private static void modifyFluidFogColor(Camera camera, float tickDelta, ClientWorld world, int viewDistance, float skyDarkness, CallbackInfo ci) {
+        FluidState state = world.getFluidState(camera.getBlockPos());
         if (state.isIn(CustomFluidTags.DRINK) || state.isIn(CustomFluidTags.LIQUID_INGREDIENTS) || state.isIn(CustomFluidTags.MELTED_INGREDIENT)) {
             int color = ((LiquifiedFluid) state.getFluid()).getCompoundFluid().getColor();
             red = ((color & 0xFF0000) >> 16) / 256.0f;
             green = ((color & 0xFF00)>> 8) / 256.0f;
             blue = (color & 0xFF) / 256.0f;
+
+            lastWaterFogColorUpdateTime = -1L;
+
+            //Sets the fog color.
+            RenderSystem.clearColor(red, green, blue, 0.0f);
+            ci.cancel();
         }
     }
 
@@ -51,13 +60,13 @@ public class BackgroundRendererMixin {
             int weight;
             switch (fluidVariant.getType()) {
                 case INGREDIENT -> {
-                    weight = 16;
-                }
-                case MELTED -> {
                     weight = 8;
                 }
+                case MELTED -> {
+                    weight = 4;
+                }
                 default -> {
-                    weight = 64;
+                    weight = 32;
                 }
             }
             RenderSystem.setShaderFogStart(-2);
